@@ -23,12 +23,11 @@ adobra;kjsdfk11    0d402337f95d018438aad6c7dd75ad6e9239d6060444a7a6b26299b261aa9
 
 ## 1
 
-- The project aims to print all the possible bitcoins after mining with k leading zeros, but for the purpose of printing only one answer I have declared one varialble named coinCount which can be updated to 1 from 0 whenever we got the first result, on line number 127 of AkkaServerMiner.fsx. This is done in order to print only single output for some value of k.
-- Pragram is run as follows:
--- k is some integer >= 0
--- dotnet fsi AkkaServerMiner.fsx k
--- After the cosole shows that server is trying establishisng a connection we run AkkaRemoteMiner.fsx as:
--- dotnet fsi AkkaRemoteMiner.fsx
+The project aims to print all the possible bitcoins after mining with k leading zeros, but for the purpose of printing only one answer I have declared one varialble named coinCount which can be updated to 1 from 0 whenever we got the first result, on line number 127 of AkkaServerMiner.fsx. This is done in order to print only single output for some value of k. Pragram is run as follows:
+- k is some integer >= 0
+- dotnet fsi AkkaServerMiner.fsx k
+- After the cosole shows that server is trying establishisng a connection we run AkkaRemoteMiner.fsx as:
+- dotnet fsi AkkaRemoteMiner.fsx
 
 ### Server Side
 

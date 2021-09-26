@@ -1,6 +1,6 @@
 # COP5615 Distributed Operating System Principles Project 1
 
-## Bitcoin-Miner-Actor-Model-F#-Akka.Net By Parth Gupta, UFID: 9199-7064
+## Bitcoin-Miner-Actor-Model-F#-Akka.Net
 
 ## Project Description
 

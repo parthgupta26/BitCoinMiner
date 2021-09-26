@@ -18,7 +18,7 @@ Print, on independent entry lines, the input string, and the corresponding SHA25
 
 ### Example:
 
-dotnet fsi yourproject1.fsx 1
+dotnet fsi yourproject1.fsx 1 <br>
 adobra;kjsdfk11    0d402337f95d018438aad6c7dd75ad6e9239d6060444a7a6b26299b261aa9a8b
 
 ## 1

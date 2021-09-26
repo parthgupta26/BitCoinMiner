@@ -49,11 +49,11 @@ Whenever a match is found with required number of zeros, it sends a response bac
 
 The result of running of my program for input 4 (Some part of the output).
 
-parthgupta !dH    0000aad243ce6b9dedbae92e2c0f3f9cbdb13477931328a5431771f72e0b5893
-parthgupta '&A    0000933f99470974706b0c1f1f9e8f0806fa1bb72183bf7a7dc2dd5a46adf5f8
-parthgupta 1)#    00002377d9c1b058c296f63013798466d7c053a994d3792afa4158f0a2dd4688
-parthgupta 6 E    0000bdc1ff21194496cc0f17feef04d58e047e110b63c5e0894093c9dc6955eb
-parthgupta8xH    000085d5d086abd6798cdfd18045f3dc312dd1ac47ae23bf9065e7f0ed0676dc
+- parthgupta !dH    0000aad243ce6b9dedbae92e2c0f3f9cbdb13477931328a5431771f72e0b5893
+- parthgupta '&A    0000933f99470974706b0c1f1f9e8f0806fa1bb72183bf7a7dc2dd5a46adf5f8
+- parthgupta 1)#    00002377d9c1b058c296f63013798466d7c053a994d3792afa4158f0a2dd4688
+- parthgupta 6 E    0000bdc1ff21194496cc0f17feef04d58e047e110b63c5e0894093c9dc6955eb
+- parthgupta8xH    000085d5d086abd6798cdfd18045f3dc312dd1ac47ae23bf9065e7f0ed0676dc
 
 The result of my program when I printed only single answer and exits the program.
 
@@ -78,8 +78,8 @@ RATIO of CPU TIME to REAL TIME = (4671/2352) = 2 (Approximately). [Taking time i
 
 The coin with the most 0s I was managed to find was for k = 7.
 
-parthgupta 5AhU    00000006ad1c1c530aa6de7a361ecb04ea048aaa6c1359f616ed6041dbfad880
-parthgupta:KeP    000000054d9839816bd6a3f5123ca761d33cb0520b54a10323223822fd859c98
+- parthgupta 5AhU    00000006ad1c1c530aa6de7a361ecb04ea048aaa6c1359f616ed6041dbfad880
+- parthgupta:KeP    000000054d9839816bd6a3f5123ca761d33cb0520b54a10323223822fd859c98
 
 ## 5
 

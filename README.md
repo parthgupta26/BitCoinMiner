@@ -21,7 +21,7 @@ Print, on independent entry lines, the input string, and the corresponding SHA25
 dotnet fsi yourproject1.fsx 1 <br>
 adobra;kjsdfk11    0d402337f95d018438aad6c7dd75ad6e9239d6060444a7a6b26299b261aa9a8b
 
-## 1
+## What is Working and How?
 
 The project aims to print all the possible bitcoins after mining with k leading zeros, but for the purpose of printing only one answer I have declared one varialble named coinCount which can be updated to 1 from 0 whenever we got the first result, on line number 127 of AkkaServerMiner.fsx. This is done in order to print only single output for some value of k. Program is run as follows:
 - k is some integer >= 0
@@ -44,7 +44,7 @@ The project aims to print all the possible bitcoins after mining with k leading 
 - Now this AkkaRemoteMiner.fsx will be connected to remote server created by AkkaServerMiner.fsx on the port number configured that is 5000. The remote file will create 6 more actors and then start the same hash computation for random strings using a recursive loop.
 - Whenever a match is found with required number of zeros, it sends a response back to the server, that result has been found (matched = str).
 
-## 2
+## Output for the program when K = 4
 
 The result of running of my program for input 4 (Some part of the output).
 
@@ -65,7 +65,7 @@ parthgupta !dH    0000aad243ce6b9dedbae92e2c0f3f9cbdb13477931328a5431771f72e0b58
 Real: 00:00:02.352, CPU: 00:00:04.671, GC gen0: 595, gen1: 3, gen2: 0 <br>
 PS C:\Users\Parth Gupta\desktop>
 
-## 3
+## Ratio of CPU to Real Time to check Parallelism
 
 The running time for the above as reported by time for the above and report the time.
 
@@ -73,14 +73,14 @@ Real: 00:00:02.352, CPU: 00:00:04.671, GC gen0: 595, gen1: 3, gen2: 0
 
 RATIO of CPU TIME to REAL TIME = (4671/2352) = 2 (Approximately). [Taking time in milliseconds]
 
-## 4
+## The coin with most number of leading zeroes
 
 The coin with the most 0s I was managed to find was for k = 7.
 
 parthgupta 5AhU    00000006ad1c1c530aa6de7a361ecb04ea048aaa6c1359f616ed6041dbfad880 <br>
 parthgupta:KeP    000000054d9839816bd6a3f5123ca761d33cb0520b54a10323223822fd859c98
 
-## 5
+## Largest number of working machines, code tested on
 
 The largest number of working machines on which I was able to run my code = 1 (My System).
 
